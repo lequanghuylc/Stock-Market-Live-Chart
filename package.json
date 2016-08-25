@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Realtime chart-view stock application with Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lequanghuylc/Stock-Market-Live-Chart.git"
+  },
+  "author": "Le Quang Huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lequanghuylc/Stock-Market-Live-Chart/issues"
+  },
+  "homepage": "https://github.com/lequanghuylc/Stock-Market-Live-Chart#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.74.0",
+    "socket.io": "^1.4.8"
+  }
+}

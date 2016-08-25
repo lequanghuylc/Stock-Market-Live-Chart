@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>StockMarket Chart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="row" id="firstrow">
+    <div class="blankgap"></div>
+    <div class="windows8">
+  	<div class="wBall" id="wBall_1">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_2">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_3">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_4">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_5">
+    		<div class="wInnerBall"></div>
+    	</div>
+    </div>
+        </div>
+        
+  </div>
+  <div class="container">
+      <div class="windows8" id="loading">
+  	<div class="wBall" id="wBall_1">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_2">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_3">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_4">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_5">
+    		<div class="wInnerBall"></div>
+    	</div>
+    </div>
+  <div id="companyname"></div>
+  <div id="chatboard">
+      <h5 id="guide"></h5>
+    <form action="javascript:void(0)">
+        <label for="message">&gt;</label>
+        <input type="text" id="message" required autofocus />
+    </form>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://code.highcharts.com/stock/highstock.js"></script>
+  <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+  <script src="socket.io-client.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
