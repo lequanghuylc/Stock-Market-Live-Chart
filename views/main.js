@@ -8,7 +8,7 @@ $(function () {
     var names = ['FB', 'GOOG', 'MSFT', 'AAPL'];
     
     //web socket
-    var socket = io("https://stockmarketchart-quanghuyf.c9users.io:8080");
+    var socket = io("https://stocklive-fcc.herokuapp.com/:8080");
     
     socket.on("disconnect", function() {
     	console.log("Disconnected");
